@@ -5,6 +5,7 @@
 	"author": "https://github.com/MuhammadAbbasAkhtar",
 	"repository": "https://github.com/MuhammadAbbasAkhtar/yeelight-xiaomi-rgb-lights-controller-electron",
 	"type": "module",
+	"license":"GNU GPL v3",
 	"scripts": {
 		"dev": "vite",
 		"start": "electron .",
@@ -16,7 +17,6 @@
 		"clean-electron": "rm -rf dist-electron"
 	},
 	"keywords": [],
-	"license": "MIT",
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.7.2",
 		"@fortawesome/free-brands-svg-icons": "^6.7.2",
