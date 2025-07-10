@@ -52,7 +52,6 @@ This generates a compiled desktop app using `electron-builder`.
 └── renderer/          ----/ Frontend (React + Tailwind)
     ├── index.html         ----/ HTML entry file
     ├── renderer.js        ----/ Entry point for the renderer process
-    ├── tailwind.config.js ----/ Tailwind CSS config
     ├── src/
 	│   ├── App.jsx ----/ App wrapper and layout
 	│   ├── main.jsx ----/ React root entry
