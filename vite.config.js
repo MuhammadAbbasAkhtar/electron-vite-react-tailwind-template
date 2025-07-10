@@ -13,7 +13,7 @@ const ElectronHandlers = resolve(__dirname, 'main/handlers');
 const RendererSrc = resolve(__dirname, 'renderer/src');
 const RendererDIR = resolve(__dirname, 'renderer');
 const outDir = resolve(__dirname, 'dist-electron');
-const tailwindcssConfig = resolve(__dirname, 'renderer/tailwind.config.js');
+
 
 console.log('ElectronMain', ElectronMain);
 console.log('ElectronMainFile', ElectronMainFile);
@@ -23,15 +23,13 @@ console.log('RendererSrc', RendererSrc);
 console.log('RendererDIR', RendererDIR);
 console.log('ElectronPreload', ElectronPreload);
 console.log('outDir', outDir);
-console.log('tailwindcssConfig', tailwindcssConfig);
+
 
 export default defineConfig({
 	// root: resolve(__dirname),
 	root: RendererDIR, // Point Vite to the renderer folder
 	plugins: [
-		tailwindcss({
-			config: tailwindcssConfig,
-		}),
+		tailwindcss({ }),
 		react(),
 		electron([
 			{
