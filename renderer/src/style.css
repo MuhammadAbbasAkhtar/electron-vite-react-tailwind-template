@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+	/* Preserve default Tailwind theme values */
+	/* Custom xAI-inspired theme */
+	--spacing: 4px;
+	--font-family-sans: Inter, system-ui, -apple-system, sans-serif;
+	--font-family-mono: Fira Code, monospace;
+	--color-background: #0a0a0b; /* Deep space black */
+	--color-background-secondary: #1a1a1d; /* Cards */
+	--color-accent: #00d4ff; /* Cyan */
+	--color-accent-secondary: #ff3bff; /* Magenta */
+	--color-text-primary: #e5e7eb; /* Light gray */
+	--color-text-secondary: #9ca3af; /* Muted gray */
+	--color-gray-900: #0a0a0b; /* Matches background */
+	--color-gray-800: #1a1a1d; /* Matches background-secondary */
+	--color-gray-700: #2d2d31; /* Hover states */
+	--color-gray-600: #4b4b52; /* Borders */
+	--color-test: #ff0000; /* Debug color */
+	 --color-sky-50: #ecf5fb;
+  --color-sky-100: #d3e9f5;
+  --color-sky-200: #a3d3ec;
+  --color-sky-300: #79bcdb;
+  --color-sky-400: #68a3be;
+  --color-sky-500: #54859b;
+  --color-sky-600: #436b7d;
+  --color-sky-700: #304f5e;
+  --color-sky-800: #1f3540;
+  --color-sky-900: #101f26;
+  --color-sky-950: #081217;
+	--shadow-card: 0 4px 12px rgba(0, 0, 0, 0.3);
+	--shadow-glow: 0 0 15px rgba(0, 212, 255, 0.2);
+	--radius: 0.5rem;
+	--radius-lg: 1rem;
+	--color-background-yellow: #ffcc00;
+	--color-background-yellow-secondary: #dfb300;
+	--color-text-black: #0a0a0b;
+	--color-iconBtn-black: #1e1e1e;
+	--animation-pulse-glow: pulse-glow 2s ease-in-out infinite;
+	--keyframes-pulse-glow: {
+		0%,
+		100% {
+			box-shadow: 0 0 5px rgba(0, 212, 255, 0.2);
+		}
+		50% {
+			box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+		}
+	}
+}
+
+
+@utility text-primary {
+	color: var(--color-text-primary);
+}
+
+@utility text-secondary {
+	color: var(--color-text-secondary);
+}
+
+@utility text-yellow {
+	color: var(--color-background-yellow);
+}
+
+
+@utility text-gray {
+	color: var(--color-text-secondary);
+}
+
+@utility bg-dark {
+	background-color: var(--color-sky-900);
+}
+
+@utility separator {
+	border-color: var( --color-sky-700);
+}
+
+@utility bg-sky-800 {
+	background-color: var(--color-sky-800);
+}

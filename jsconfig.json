@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@": ["renderer/src/*"],
+			"@electron-store": ["main/store.js"], // "@electron-store.
+      "@components/*": ["renderer/src/components/*"],
+      "@components": ["renderer/src/components/index.js"],
+      "@pages/*": ["renderer/src/pages/*"],
+      "@pages": ["renderer/src/pages/index.js"],
+      "@ipcHandlers/*": ["main/handlers/*"],
+			"@utils": ["renderer/src/utils/index.js"],
+    }
+  },
+  "include": ["./","renderer/src", "main"]
+}

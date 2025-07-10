@@ -1,0 +1,51 @@
+{
+	"name": "yeelight-xiaomi-rgb-lights-controller-electron",
+	"version": "1.0.0",
+	"main": "main/main.js",
+	"author": "https://github.com/MuhammadAbbasAkhtar",
+	"repository": "https://github.com/MuhammadAbbasAkhtar/yeelight-xiaomi-rgb-lights-controller-electron",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"start": "electron .",
+		"start:vite": "vite",
+		"start:electron": "wait-on  http://localhost:3069 && electron . --trace-warnings ",
+		"build": "yarn build:vite && electron-builder",
+		"build:vite": "vite build",
+		"serve": "vite preview",
+		"clean-electron": "rm -rf dist-electron"
+	},
+	"keywords": [],
+	"license": "MIT",
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.7.2",
+		"@fortawesome/free-brands-svg-icons": "^6.7.2",
+		"@fortawesome/free-regular-svg-icons": "^6.7.2",
+		"@fortawesome/free-solid-svg-icons": "^6.7.2",
+		"@fortawesome/react-fontawesome": "^0.2.2",
+		"electron": "^37.2.0",
+		"electron-store": "^10.1.0",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"react-hot-toast": "^2.5.2",
+		"react-router-dom": "^7.6.3",
+		"url": "^0.11.4"
+	},
+	"devDependencies": {
+		"@tailwindcss/cli": "^4.1.11",
+		"@tailwindcss/forms": "^0.5.10",
+		"@tailwindcss/typography": "^0.5.16",
+		"@tailwindcss/vite": "^4.1.11",
+		"@types/react": "^19.1.8",
+		"@types/react-dom": "^19.1.6",
+		"@vitejs/plugin-react": "^4.6.0",
+		"concurrently": "^9.2.0",
+		"electron-builder": "^26.0.12",
+		"electronmon": "^2.0.3",
+		"tailwindcss": "^4.1.11",
+		"vite": "^7.0.3",
+		"vite-plugin-electron": "^0.29.0",
+		"vite-plugin-electron-renderer": "^0.14.6",
+		"wait-on": "^8.0.3"
+	}
+}
