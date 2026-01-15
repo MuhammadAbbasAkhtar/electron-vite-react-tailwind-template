@@ -223,9 +223,10 @@
   optionalDependencies:
     global-agent "^3.0.0"
 
-"@electron/node-gyp@git+https://github.com/electron/node-gyp.git#06b29aafb7708acef8b3669835c8a7857ebc92d2":
+"@electron/node-gyp@https://github.com/electron/node-gyp#06b29aafb7708acef8b3669835c8a7857ebc92d2":
   version "10.2.0-electron.1"
-  resolved "git+https://github.com/electron/node-gyp.git#06b29aafb7708acef8b3669835c8a7857ebc92d2"
+  uid "06b29aafb7708acef8b3669835c8a7857ebc92d2"
+  resolved "https://github.com/electron/node-gyp#06b29aafb7708acef8b3669835c8a7857ebc92d2"
   dependencies:
     env-paths "^2.2.0"
     exponential-backoff "^3.1.1"
@@ -1862,10 +1863,10 @@ electron-to-chromium@^1.5.173:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.181.tgz#2f68dc900651858200a423acdf12c644f6b7f014"
   integrity sha512-+ISMj8OIQ+0qEeDj14Rt8WwcTOiqHyAB+5bnK1K7xNNLjBJ4hRCQfUkw8RWtcLbfBzDwc15ZnKH0c7SNOfwiyA==
 
-electron@^37.2.0:
-  version "37.2.0"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-37.2.0.tgz#358082d3a3b39ebf35d506287826800985c6862e"
-  integrity sha512-dE6+qeg6SBUVd5d8CD2+GH82kh+gF1v40+hs+U+UOno681NMSGmBtgqwldQRpbvtnQDD7V2M9Cpfr3+Abw7aBg==
+electron@^37.3.1:
+  version "37.3.1"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-37.3.1.tgz#92d0299593c4302dcdf3305af917c60dad69719f"
+  integrity sha512-7DhktRLqhe6OJh/Bo75bTI0puUYEmIwSzMinocgO63mx3MVjtIn2tYMzLmAleNIlud2htkjpsMG2zT4PiTCloA==
   dependencies:
     "@electron/get" "^2.0.0"
     "@types/node" "^22.7.7"
